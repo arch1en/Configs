@@ -1,0 +1,13 @@
+[Bookmarks]
+D:\_Assets\Meshes\
+[Recent]
+D:\_Workspace\Github\Arch1eNgine\Assets\Textures\
+D:\_Assets\Textures\Test_Honeycomb\
+D:\_Assets\Meshes\Primitives\
+D:\_Assets\Meshes\
+Y:\01_Project\Be_Bee\_Content\Characters\Animals\Meshes\SM_Bear\
+Y:\01_Project\Be_Bee\_Content\Characters\Animals\Textures\T_Bear\
+Y:\Graphics\Bozenka\BEE\
+Y:\01_Project\Be_Bee\_Content\Enviroment\Meshes\SM_Mouse-ear_chickweed\
+Y:\01_Project\Be_Bee\_Content\Enviroment\Meshes\SM_Dandelion\
+Y:\01_Project\Be_Bee\_Content\Characters\Animals\Meshes\SM_bee_hair\blend_file\
