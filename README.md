@@ -1,1 +1,1 @@
-# Configs
+Windows Path : %appdata%\Roaming\krita
