@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doublecmd>
   <History>
-    <Navigation/>
+    <Navigation>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\</Item>
+      <Item>E:\_Workspace\Varsav\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\QuestSystem\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\QuestSystem\Source\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\QuestSystem\Source\QuestSystem\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\QuestSystem\Source\QuestSystem\Public\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Plugins\QuestSystem\Source\QuestSystem\Private\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Source\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Source\GiantsUprising\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprising\Source\GiantsUprising\Private\</Item>
+      <Item>E:\_Workspace\Github\Arch1eNgine\</Item>
+      <Item>E:\_Workspace\Github\</Item>
+      <Item>E:\_Workspace\</Item>
+      <Item>E:\_Workspace\Varsav\GiantsUprisingClean\</Item>
+      <Item>C:\</Item>
+      <Item>C:\Users\</Item>
+      <Item>C:\Users\Artur Ostrowski\</Item>
+      <Item>C:\Users\Artur Ostrowski\AppData\</Item>
+      <Item>C:\Users\Artur Ostrowski\AppData\Roaming\</Item>
+      <Item>C:\Users\Artur Ostrowski\AppData\Roaming\doublecmd\</Item>
+      <Item>C:\Users\Artur Ostrowski\ansel\</Item>
+      <Item>e:\</Item>
+      <Item>E:\Giants\</Item>
+      <Item>E:\_Temp\</Item>
+      <Item>E:\_Engines\</Item>
+      <Item>E:\_Builds\</Item>
+      <Item>E:\Saved\</Item>
+      <Item>C:\_Tools\</Item>
+      <Item>C:\_Tools\Double Commander\</Item>
+      <Item>C:\_Tools\DoubleCommander\</Item>
+      <Item>C:\_Tools\ImmuNet\</Item>
+    </Navigation>
     <CommandLine/>
     <FileMask/>
     <SearchText/>

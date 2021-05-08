@@ -152,7 +152,7 @@
         </Tab>
       </Right>
     </OpenedTabs>
-    <Options>54033</Options>
+    <Options>49937</Options>
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
@@ -197,14 +197,14 @@
       <ScrollMode>1</ScrollMode>
       <WheelScrollLines>3</WheelScrollLines>
     </Mouse>
-    <AutoFillColumns>False</AutoFillColumns>
+    <AutoFillColumns>True</AutoFillColumns>
     <AutoSizeColumn>1</AutoSizeColumn>
     <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
     <DateTimeFormat>dd/MM/yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -235,22 +235,22 @@
   </Tools>
   <Fonts>
     <Main>
-      <Name>default</Name>
+      <Name>Consolas</Name>
       <Size>10</Size>
-      <Style>1</Style>
-      <Quality>0</Quality>
+      <Style>0</Style>
+      <Quality>1</Quality>
     </Main>
     <Editor>
-      <Name>Courier New</Name>
-      <Size>14</Size>
+      <Name>Consolas</Name>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </Editor>
     <Viewer>
-      <Name>Courier New</Name>
-      <Size>14</Size>
+      <Name>Consolas</Name>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </Viewer>
     <OptionsTree>
       <Name>default</Name>
@@ -271,10 +271,10 @@
       <Quality>0</Quality>
     </SearchResults>
     <PathEdit>
-      <Name>default</Name>
-      <Size>8</Size>
+      <Name>Consolas</Name>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </PathEdit>
     <FunctionButtons>
       <Name>default</Name>
@@ -283,38 +283,38 @@
       <Quality>0</Quality>
     </FunctionButtons>
     <Log>
-      <Name>Courier New</Name>
-      <Size>12</Size>
+      <Name>Consolas</Name>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </Log>
     <ViewerBook>
-      <Name>default</Name>
-      <Size>16</Size>
-      <Style>1</Style>
-      <Quality>0</Quality>
+      <Name>Consolas</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>1</Quality>
     </ViewerBook>
     <Console>
-      <Name>Courier New</Name>
-      <Size>12</Size>
+      <Name>Consolas</Name>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </Console>
   </Fonts>
   <Colors>
     <UseCursorBorder>False</UseCursorBorder>
     <CursorBorderColor>-2147483635</CursorBorderColor>
     <UseFrameCursor>False</UseFrameCursor>
-    <Foreground>-2147483640</Foreground>
-    <Background>-2147483643</Background>
-    <Background2>-2147483643</Background2>
-    <Cursor>-2147483635</Cursor>
-    <CursorText>-2147483634</CursorText>
+    <Foreground>65280</Foreground>
+    <Background>16384</Background>
+    <Background2>21760</Background2>
+    <Cursor>65280</Cursor>
+    <CursorText>0</CursorText>
     <Mark>255</Mark>
-    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveCursor>0</InactiveCursor>
     <InactiveMark>128</InactiveMark>
     <UseInvertedSelection>False</UseInvertedSelection>
-    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <UseInactiveSelColor>True</UseInactiveSelColor>
     <AllowOverColor>True</AllowOverColor>
     <gBorderFrameWidth>1</gBorderFrameWidth>
     <InactivePanelBrightness>100</InactivePanelBrightness>
@@ -328,7 +328,44 @@
       <Error>255</Error>
       <Success>32768</Success>
     </LogWindow>
-    <FileFilters/>
+    <FileFilters>
+      <Filter>
+        <Name>Cpp Headers</Name>
+        <FileMasks>&gt;Cpp Headers</FileMasks>
+        <Color>33023</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Cpp Source</Name>
+        <FileMasks>&gt;Cpp Source</FileMasks>
+        <Color>27349</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Binaries</Name>
+        <FileMasks>&gt;Binaries</FileMasks>
+        <Color>16711935</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Executables</Name>
+        <FileMasks>&gt;Executables</FileMasks>
+        <Color>16749867</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Text Files</Name>
+        <FileMasks>&gt;Text Files</FileMasks>
+        <Color>12632256</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Config Files</Name>
+        <FileMasks>&gt;Config Files</FileMasks>
+        <Color>65535</Color>
+        <Attributes/>
+      </Filter>
+    </FileFilters>
   </Colors>
   <ToolTips>
     <ShowToolTipMode>True</ShowToolTipMode>
@@ -352,19 +389,19 @@
       <ShowFileSystem>True</ShowFileSystem>
       <ShowFreeSpace>True</ShowFreeSpace>
     </DrivesListButton>
-    <SeparateTree>False</SeparateTree>
+    <SeparateTree>True</SeparateTree>
     <DirectoryTabs>True</DirectoryTabs>
     <CurrentDirectory>True</CurrentDirectory>
     <TabHeader>True</TabHeader>
     <StatusBar>True</StatusBar>
     <CmdLine>True</CmdLine>
     <LogWindow>False</LogWindow>
-    <TermWindow>False</TermWindow>
+    <TermWindow>True</TermWindow>
     <KeyButtons>True</KeyButtons>
     <InterfaceFlat>True</InterfaceFlat>
     <DriveFreeSpace>True</DriveFreeSpace>
-    <DriveIndicator>False</DriveIndicator>
-    <ProgressInMenuBar>False</ProgressInMenuBar>
+    <DriveIndicator>True</DriveIndicator>
+    <ProgressInMenuBar>True</ProgressInMenuBar>
     <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
     <HorizontalFilePanels>False</HorizontalFilePanels>
     <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
@@ -403,7 +440,7 @@
     </Typing>
   </Keyboard>
   <FileOperations>
-    <BufferSize>524288</BufferSize>
+    <BufferSize>1048576</BufferSize>
     <HashBufferSize>8388608</HashBufferSize>
     <UseMmapInSearch>False</UseMmapInSearch>
     <PartialNameSearch>True</PartialNameSearch>
@@ -504,7 +541,7 @@
     <ShowHiddenDimmed>False</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
     <ShowOverlays>False</ShowOverlays>
-    <Size>32</Size>
+    <Size>16</Size>
     <DiskSize>16</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <Exclude>False</Exclude>
@@ -519,7 +556,14 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList/>
+  <DirectoryHotList>
+    <HotDir Name="DoubleCmd Config" Path="C:\Users\Artur Ostrowski\AppData\Roaming\doublecmd\"/>
+    <HotDir Name="-Projects" Path=""/>
+    <HotDir Name="Arch1eNgine" Path="E:\_Workspace\Github\Arch1eNgine\"/>
+    <HotDir Name="GiantsUprising" Path="E:\_Workspace\Varsav\GiantsUprising\"/>
+    <HotDir Name="GiantsUprisingClean" Path="E:\_Workspace\Varsav\GiantsUprisingClean\"/>
+    <HotDir Name="--" Path=""/>
+  </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -663,7 +707,188 @@
   <MarkShowWantedAttribute>False</MarkShowWantedAttribute>
   <MarkDefaultWantedAttribute/>
   <MarkLastWantedAttribute/>
-  <SearchTemplates/>
+  <SearchTemplates>
+    <Template>
+      <Name>Cpp Headers</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.h|\.hpp</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>Cpp Source</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.c|\.cpp</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>Binaries</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.dll|\.pdb|\.uasset</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>Executables</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.exe|\.uproject</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>Text Files</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.txt|\.log</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>Config Files</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>\.json|\.yaml|\.yml|\.xml|\.ini</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>0</SearchDepth>
+      <IsPartialNameSearch>False</IsPartialNameSearch>
+      <RegExp>True</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <HexValue>False</HexValue>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Default</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+  </SearchTemplates>
   <ColumnsSets DefaultTitleHash="540805403">
     <ColumnsSet UseFrameCursor="False">
       <Name>Default</Name>
@@ -671,7 +896,7 @@
       <FileSystem>&lt;General&gt;</FileSystem>
       <PixelsPerInch>96</PixelsPerInch>
       <CursorBorder Enabled="False">
-        <Color>0</Color>
+        <Color>-2147483635</Color>
       </CursorBorder>
       <Columns>
         <Column>
@@ -680,113 +905,113 @@
           <Width>250</Width>
           <Align>0</Align>
           <Font>
-            <Name>default</Name>
+            <Name>Consolas</Name>
             <Size>10</Size>
-            <Style>1</Style>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>65280</TextColor>
+          <Background>16384</Background>
+          <Background2>21760</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <CursorColor>65280</CursorColor>
+          <CursorText>0</CursorText>
+          <InactiveCursorColor>0</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>73</Width>
           <Align>0</Align>
           <Font>
-            <Name>default</Name>
+            <Name>Consolas</Name>
             <Size>10</Size>
-            <Style>1</Style>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>65280</TextColor>
+          <Background>16384</Background>
+          <Background2>21760</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <CursorColor>65280</CursorColor>
+          <CursorText>0</CursorText>
+          <InactiveCursorColor>0</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
           <Width>70</Width>
-          <Align>1</Align>
+          <Align>2</Align>
           <Font>
-            <Name>default</Name>
+            <Name>Consolas</Name>
             <Size>10</Size>
-            <Style>1</Style>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>65280</TextColor>
+          <Background>16384</Background>
+          <Background2>21760</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <CursorColor>65280</CursorColor>
+          <CursorText>0</CursorText>
+          <InactiveCursorColor>0</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
           <Width>140</Width>
-          <Align>1</Align>
+          <Align>2</Align>
           <Font>
-            <Name>default</Name>
+            <Name>Consolas</Name>
             <Size>10</Size>
-            <Style>1</Style>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>65280</TextColor>
+          <Background>16384</Background>
+          <Background2>21760</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <CursorColor>65280</CursorColor>
+          <CursorText>0</CursorText>
+          <InactiveCursorColor>0</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
           <Width>100</Width>
-          <Align>0</Align>
+          <Align>2</Align>
           <Font>
-            <Name>default</Name>
+            <Name>Consolas</Name>
             <Size>10</Size>
-            <Style>1</Style>
+            <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>65280</TextColor>
+          <Background>16384</Background>
+          <Background2>21760</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
+          <CursorColor>65280</CursorColor>
+          <CursorText>0</CursorText>
+          <InactiveCursorColor>0</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
       </Columns>
